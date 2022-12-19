@@ -1,0 +1,124 @@
+.full-website{
+    width: 80%;
+    margin: 0 auto;
+}
+ /* ........header.......... */
+.header{
+    background: #0e123f;
+} 
+.header img{
+    width: 160px;
+    height: auto;
+    padding: 15px 25px;
+}
+.header ul li{
+    display: inline-block;
+}
+.header ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 00px 20px;
+    line-height: 80px;
+    font-size: 20px;
+}
+ /* ........banner.......... */
+ .banner{
+ background-image: url(./1.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: bottom center;
+ height: 1000px;
+ position: relative;
+ z-index: 1;
+ }
+.baner-header{
+    text-align: center;   
+}
+ .baner-header h2{
+    margin-top: 32%;
+    color:  #faf7ee;
+    font-size: 35px;
+ }
+ .baner-header p{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #faf7ee;
+    font-size: 25px;
+}
+ .btn{
+    font-size: 20px;
+    padding: 8px 16px;
+ }
+ .banner::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.521);
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+ }
+ /* <!-- ...team..section.... --> */
+ .team-header{
+    color: #000;
+    padding-top: 170px;
+    padding-bottom: 80px;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .team-section{
+    margin: auto;
+    width: 80%;
+    height: 900px;
+    background: #bac1f3;
+ }
+ .mal24 p,h6{
+    padding-top: 15px;
+    font-size: 17px;
+ }
+ /* <!-- ........about..section..... --> */
+ .about-section{
+    height: 850px;
+    width: 80%;
+    margin: auto;
+    background: #c2d4ea;
+ }
+ .pp{
+    padding-top: 25px;
+ }
+ .ppp{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ /* <!-- .....Contact..part........ --> */
+ .contact-section{
+    background-color: #f5f5f5;
+    height: 900px;
+    width: 80%;
+    margin: auto;
+ }
+ .titel h1{ 
+    color: #000;
+    padding-top: 150px;
+    padding-bottom: 50px;
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .map iframe {
+    width: 100%; 
+ }
+ form input{
+    padding: 10px;
+   width: 100%;
+ }
+ /* ..footer-part..... */
+ .footer{
+    width: 80%;
+    margin: auto;
+    padding: 20px 0px;
+    font-size: 25px;
+ }
+ .footer span{
+  font-weight: bold;
+ }
